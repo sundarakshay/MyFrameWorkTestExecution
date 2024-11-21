@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-21T17:36:22 CST" name="Default suite" finished-at="2024-11-21T17:36:28 CST" duration-ms="6411">
+    <groups>
+    </groups>
+    <test started-at="2024-11-21T17:36:22 CST" name="Default test" finished-at="2024-11-21T17:36:28 CST" duration-ms="6411">
+      <class name="com.tests.HomeTestSD">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:22 CST" name="browserInitialise" finished-at="2024-11-21T17:36:24 CST" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyMainHeadingTest(java.lang.String,java.lang.String)[pri:0, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:24 CST" name="verifyMainHeadingTest" data-provider="data" finished-at="2024-11-21T17:36:24 CST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHeadingTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:24 CST" name="browserQuit" finished-at="2024-11-21T17:36:25 CST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:25 CST" name="browserInitialise" finished-at="2024-11-21T17:36:27 CST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyMainSubHeadingTest(java.lang.String,java.lang.String)[pri:1, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:27 CST" name="verifyMainSubHeadingTest" data-provider="data" finished-at="2024-11-21T17:36:28 CST" duration-ms="487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSubHeadingTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestSD@3eb81efb]" started-at="2024-11-21T17:36:28 CST" name="browserQuit" finished-at="2024-11-21T17:36:28 CST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.tests.HomeTestSD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
