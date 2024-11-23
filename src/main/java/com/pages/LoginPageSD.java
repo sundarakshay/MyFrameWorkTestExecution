@@ -20,30 +20,31 @@ public class LoginPageSD {
 	}
 
 	public Boolean verifyLoginButtonTest() {
-		//Boolean button = driver.findElement(loginButton).isDisplayed();
+		// Boolean button = driver.findElement(loginButton).isDisplayed();
 		boolean button = UtilitiesSD.isElementDisplayed(driver, loginButton);
 		return (button);
 	}
 
 	public String verifyAlertMessageBrforeLogin() {
-		//String actualLoginErrorMessage = driver.findElement(alertEroorMessage).getText();
+		// String actualLoginErrorMessage =
+		// driver.findElement(alertEroorMessage).getText();
 		String actualLoginErrorMessage = UtilitiesSD.getTextValue(driver, alertEroorMessage);
 		return (actualLoginErrorMessage);
 	}
 
 	public void loginButtonClick() {
-		//driver.findElement(loginButton).click();
+		// driver.findElement(loginButton).click();
 		UtilitiesSD.clickElement(driver, loginButton);
 	}
 
 	public void loginUsername(String loginUsername) {
-		//driver.findElement(username).sendKeys(loginUsername);
+		// driver.findElement(username).sendKeys(loginUsername);
 		UtilitiesSD.enterText(driver, username, loginUsername);
 	}
 
 	public void loginPassword(String loginPassword) {
 
-		//driver.findElement(password).sendKeys(loginPassword);
+		// driver.findElement(password).sendKeys(loginPassword);
 		UtilitiesSD.enterText(driver, password, loginPassword);
 
 	}

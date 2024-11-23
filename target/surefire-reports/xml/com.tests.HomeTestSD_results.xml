@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.850">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyMainSubHeadingTest"
+                time="0.376"
+                classname="com.tests.HomeTestSD">
+            </testcase>
+            <testcase
+                name="verifyMainHeadingTest"
+                time="0.474"
+                classname="com.tests.HomeTestSD">
+            </testcase>
+</testsuite>

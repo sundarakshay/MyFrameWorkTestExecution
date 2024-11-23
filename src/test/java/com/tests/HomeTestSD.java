@@ -14,7 +14,7 @@ import jxl.read.biff.BiffException;
 
 public class HomeTestSD extends BaseTestSD {
 
-	@Test(priority = 0, dataProvider = "data")
+	@Test(priority = 0, dataProvider = "data", groups = "unit")
 	public void verifyMainHeadingTest(String username, String password) {
 
 		login.loginUsername(username);
@@ -25,7 +25,7 @@ public class HomeTestSD extends BaseTestSD {
 
 	}
 
-	@Test(priority = 1, dataProvider = "data")
+	@Test(priority = 1, dataProvider = "data", groups = "unit")
 	public void verifyMainSubHeadingTest(String username, String password) {
 
 		login.loginUsername(username);

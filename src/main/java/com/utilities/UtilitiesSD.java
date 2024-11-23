@@ -1,12 +1,16 @@
 package com.utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import jxl.Sheet;
 import jxl.Workbook;
@@ -41,6 +45,7 @@ public class UtilitiesSD {
 		propertyValue = prop.getProperty(propertyName);
 		return propertyValue;
 	}
+
 	public static String[][] readExcel() throws BiffException, IOException {
 		String FilePath = "./src/main/resources/TestData.xls";
 		String[][] tabArray = null;
@@ -57,4 +62,19 @@ public class UtilitiesSD {
 		}
 		return tabArray;
 	}
+
+	public String takesScreenshot(String testName, WebDriver driver) {
+
+		File sourceScreenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File destinationScreenshotFile = new File(
+				System.getProperty("user.dir") + "\\Screenshots\\" + testName + ".png");
+		try {
+			FileUtils.copyFile(sourceScreenshotFile, destinationScreenshotFile);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return destinationScreenshotFile.getAbsolutePath();
+	}
+
 }

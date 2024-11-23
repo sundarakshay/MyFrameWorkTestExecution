@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.162">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyAlertMessageLoginTest"
+                time="0.125"
+                classname="com.tests.LoginTestSD">
+            </testcase>
+            <testcase
+                name="verifyLoginTest"
+                time="0.037"
+                classname="com.tests.LoginTestSD">
+            </testcase>
+</testsuite>

@@ -16,13 +16,13 @@ public class HomePageSD {
 	}
 
 	public String verifyMainHeadingAfterLogin() {
-		//String actualHeading = driver.findElement(MainHeadingTitle).getText();
-		String actualHeading=UtilitiesSD.getTextValue(driver, MainHeadingTitle);
+		// String actualHeading = driver.findElement(MainHeadingTitle).getText();
+		String actualHeading = UtilitiesSD.getTextValue(driver, MainHeadingTitle);
 		return (actualHeading);
 	}
 
 	public String verifyMainSubHeadingAfterLogin() {
-		//String actualSubHeading = driver.findElement(subHeadingTitle).getText();
+		// String actualSubHeading = driver.findElement(subHeadingTitle).getText();
 		String actualSubHeading = UtilitiesSD.getTextValue(driver, subHeadingTitle);
 		return actualSubHeading;
 	}

@@ -11,14 +11,14 @@ import com.pages.LoginPageSD;
 
 public class LoginTestSD extends BaseTestSD {
 
-	@Test(priority = 0)
+	@Test(priority = 0, groups = "smoke")
 	public void verifyLoginTest() {
 
 		Boolean actual = login.verifyLoginButtonTest();
 		Assert.assertEquals(actual, true);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = "smoke")
 	public void verifyAlertMessageLoginTest() {
 
 		LoginPageSD login = new LoginPageSD(driver);

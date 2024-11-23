@@ -1,4 +1,5 @@
-com\utilities\UtilitiesSD.class
 com\pages\HomePageSD.class
+com\utilities\ExtentReportGenerate.class
+com\utilities\UtilitiesSD.class
 com\pages\LoginPageSD.class
 com\configurations\BaseSD.class

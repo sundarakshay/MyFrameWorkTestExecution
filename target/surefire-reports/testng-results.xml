@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T12:04:37 CST" name="Suite" finished-at="2024-11-23T12:04:51 CST" duration-ms="13845">
+    <groups>
+      <group name="unit">
+        <method signature="HomeTestSD.verifyMainHeadingTest(java.lang.String,java.lang.String)[pri:0, instance:com.tests.HomeTestSD@508dec2b]" name="verifyMainHeadingTest" class="com.tests.HomeTestSD"/>
+        <method signature="HomeTestSD.verifyMainSubHeadingTest(java.lang.String,java.lang.String)[pri:1, instance:com.tests.HomeTestSD@508dec2b]" name="verifyMainSubHeadingTest" class="com.tests.HomeTestSD"/>
+      </group> <!-- unit -->
+      <group name="smoke">
+        <method signature="LoginTestSD.verifyLoginTest()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" name="verifyLoginTest" class="com.tests.LoginTestSD"/>
+        <method signature="LoginTestSD.verifyAlertMessageLoginTest()[pri:1, instance:com.tests.LoginTestSD@7dc19a70]" name="verifyAlertMessageLoginTest" class="com.tests.LoginTestSD"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-23T12:04:37 CST" name="Test" finished-at="2024-11-23T12:04:51 CST" duration-ms="13845">
+      <class name="com.tests.HomeTestSD">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:44 CST" name="browserInitialise" finished-at="2024-11-23T12:04:46 CST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyMainHeadingTest(java.lang.String,java.lang.String)[pri:0, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:46 CST" name="verifyMainHeadingTest" data-provider="data" finished-at="2024-11-23T12:04:46 CST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHeadingTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:46 CST" name="browserQuit" finished-at="2024-11-23T12:04:47 CST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:47 CST" name="browserInitialise" finished-at="2024-11-23T12:04:50 CST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyMainSubHeadingTest(java.lang.String,java.lang.String)[pri:1, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:50 CST" name="verifyMainSubHeadingTest" data-provider="data" finished-at="2024-11-23T12:04:50 CST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSubHeadingTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestSD@508dec2b]" started-at="2024-11-23T12:04:51 CST" name="browserQuit" finished-at="2024-11-23T12:04:51 CST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.tests.HomeTestSD -->
+      <class name="com.tests.LoginTestSD">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:37 CST" name="browserInitialise" finished-at="2024-11-23T12:04:40 CST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyLoginTest()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:40 CST" name="verifyLoginTest" finished-at="2024-11-23T12:04:40 CST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:40 CST" name="browserQuit" finished-at="2024-11-23T12:04:41 CST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:41 CST" name="browserInitialise" finished-at="2024-11-23T12:04:43 CST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method signature="verifyAlertMessageLoginTest()[pri:1, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:43 CST" name="verifyAlertMessageLoginTest" finished-at="2024-11-23T12:04:43 CST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertMessageLoginTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestSD@7dc19a70]" started-at="2024-11-23T12:04:43 CST" name="browserQuit" finished-at="2024-11-23T12:04:44 CST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.tests.LoginTestSD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
